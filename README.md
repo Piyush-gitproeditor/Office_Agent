@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/4f61fd02-95bd-4f46-bb38-0ff9f42b00dc
+
 AI Office Agent — Powered by NVIDIA Nemotron
 
 An AI-powered desktop automation agent that automates Microsoft Excel, Word, and PowerPoint using natural-language instructions. Instead of merely suggesting what to do, the agent executes tasks directly in the desktop applications, allowing users to observe the automation in real time.
