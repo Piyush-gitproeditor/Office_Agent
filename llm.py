@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 load_dotenv()
-
+# Model Name = nemotron-3-super-120b-a12b  
 BASE_URL = os.getenv("NEBIUS_BASE_URL", "https://api.tokenfactory.nebius.com/v1/")
 DEFAULT_MODEL = os.getenv("NEBIUS_MODEL", "")
 
