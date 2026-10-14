@@ -1,0 +1,5 @@
+openai>=1.40.0
+python-dotenv>=1.0.0
+streamlit>=1.43.0
+xlwings>=0.30.0
+pywin32>=306; sys_platform == "win32"
