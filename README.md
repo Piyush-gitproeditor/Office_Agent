@@ -56,27 +56,35 @@ Create and modify presentations through natural-language instructions.
 - Coordination between the LLM and Python automation functions.
 - Live execution
 
-**Setup and running guide**
+**Setup and running guide**---
  **What you need**
     Windows 10 or 11. The agent controls Office through Windows COM, so it won’t run on Mac or Linux.
     Desktop Microsoft Office (Excel, Word and PowerPoint installed and activated). Office on the web doesn’t work.
     Python 3.10 or newer.
     A Nebius Token Factory API key.
+    
+    ---
 
   **Install the packages**    
-     openai>=1.40.0
-     python-dotenv>=1.0.0
-     streamlit>=1.43.0
-     xlwings>=0.30.0
+     openai>=1.40.0,
+     python-dotenv>=1.0.0,
+     streamlit>=1.43.0,
+     xlwings>=0.30.0,
      pywin32>=306; sys_platform == "win32"
 
+     ---
+
   **Create your .env file**
-    NEBIUS_API_KEY=your_real_key
-    NEBIUS_BASE_URL=https://api.tokenfactory.nebius.com/v1/
+    NEBIUS_API_KEY=your_real_key,
+    NEBIUS_BASE_URL=https://api.tokenfactory.nebius.com/v1/,
     NEBIUS_MODEL=exact_model_id
+
+    ---
 
   **Find the exact model ID**
     python list_models.py (Copy the Nemotron ID it prints into NEBIUS_MODEL)
+
+    ---
 
   **Start the app**
     streamlit run app.py
